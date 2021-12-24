@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: honeydew;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1d1d1b;
+    height: 80px;;
+}
+
+header .container .logo{
+    max-height: 80px;
+    margin-left: 15px;;
+}
+
+header .container nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+}
+
+main .container .cover{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    background: url("/resources/img/coverbg.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+main .container .basic-info{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+
+.photo-and-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    float: right;  
+    cursor: pointer;
+}
+
+.social-links img{
+    max-width: 25px;
+    margin-right: 5px;
+}
+
+main .container .basic-info .photo-and-name img{
+    border-radius: 50%;
+    max-height: 150px;
+    margin-top: -70px;
+}
+
+main .container .basic-info .photo-and-name h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #1d1d1b;
+}
+
+main .container .basic-info .photo-and-name h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #535353;
+}
+.slides-certificates{
+    margin-top: 20px;;
+}
+.slides-certificates h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
